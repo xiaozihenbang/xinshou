@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>ε=(´ο｀*)))</title>
+		<link rel="stylesheet" type="text/css" href="./css/background.css"/>
+		<style>
+			ul{
+				list-style-type: none;
+				position: -webkit-sticky;/* IE*/
+				position: sticky;
+				top:0;
+				margin: 0;
+				padding: 0;
+			}
+			li{
+				display: inline;
+				padding:10px 100px 0px 10px;
+			}
+			li a{
+				display: inline;
+				text-decoration: none;
+				font-size: 2em;
+				font-weight: bold;
+			}
+			li:last-child{
+				position: absolute;
+				padding:0px;
+				right: 18px;
+			}
+			a.active{
+				background-color: #f6d1cb;
+				color:#ffffff
+				}
+			a:link{color:#ffaa7f;}
+			a:visited{color:#ffffff;}
+			a:hover{color: #ff00ff;}
+			a:active{color: #000000;}
+			p{
+				font-family: '宋体';
+				font-size: 15px;
+				padding-left:12px ;
+			}
+			h2{
+				padding-left: 60px;
+				padding-top: 50px;
+			}
+			#left {
+				 font-size: 1.5em;
+				 color: #008700;	
+				 position: absolute;
+				 right:0px;
+				 top: 0px;
+				 transform:rotateY(-180deg);
+				 }
+			
+			div{
+				margin: 20px;
+				border: 5px  ;
+				padding:0px;
+				width: 20%;
+			}
+			div.right_bottom{
+				position: fixed;
+				bottom: 20px;
+				right:30px;
+			}
+			div.right{
+				position: absolute;
+				right: 20px;
+				top: 110px;
+				transform: rotateY(180deg);
+				overflow: hidden;
+				}
+			div.left{
+				position: absolute;
+				left: 30px;
+				bottom: 10px;
+			}
+			div.center{
+				position: absolute;
+				right: 530px;
+				top: 50px;
+			}
+			marquee{
+				font-family: '微软雅黑';
+				color: #9e6073;
+				font-size: 14px;
+			}
+			.index1{
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: -1;
+			}
+			.index2{
+				position: absolute;
+				right: 0;
+				top: 0;
+				z-index: -1;
+			}
+
+			
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a href="#" class="active">主页</a></li>
+			<li><a href="#Mylove">我的爱好</a></li>
+			<li><a href="Mymusic.html" target="_blank" style="cursor: wait;">我的音乐</a></li>
+			<li><a href="#Myquestion">我的问题</a></li>
+			<li><a href="#">关于</a></li>
+		</ul>
+		<h2>个人简历</h2>
+		<div class="right">
+			<span id="left">靓照</span>
+			<img  src="./img/dog.png" height="250px" title="本人自拍靓照">	
+		</div>
+		<p>姓名：战狼</p>
+		<p>性别：男</p>
+		<p>爱好：和多位非同性同时沟通</p>
+		<p>特长：能够保持和多位非同性沟通而不被发现（自我认为没被发现）</p>
+		<p>问题：仅存在了沟通</p>
+		<br /><br /><br /><br /><br />
+		<div id="Myquestion" class="left" style="width: 40%;">
+			<marquee scrollamount="5">今天捡垃圾赚了5块钱，给你买了瓶水，怕你和别人接吻会口渴，我会继续好好挣钱，努力守护你，我的女神。</marquee>
+			<br /><br /><br /><br /><br />
+			<marquee scrollamount="5">宝没事的不管你怎么样我都不介意的，只要你不要不理我就好了，缺钱的时候记得跟我讲哦，爱你</marquee>
+			<img src="./img/note2.JPG" class=" index1" height="500px" title="question" />
+			<img src="./img/note3.png" class=" index2" height="500px" title="question" />
+		</div>
+		<div class="right_bottom" id="Mylove" style="width: 25%;">
+			<img src="img/note4.gif" height="200px" title="love">
+		</div>
+		<div class=" center" >
+			<img src="./img/note.png"  title="舔狗日记" height="300px"/>
+		</div>
+	</body>
+</html>

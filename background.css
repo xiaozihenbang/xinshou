@@ -1,0 +1,7 @@
+body{
+	background: url(../img/body%20back.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+	line-height: 30px;
+	color:#ff007f;
+}
